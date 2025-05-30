@@ -22,6 +22,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency("faraday")
   spec.add_dependency("activesupport")
   spec.add_dependency("bundler")
+  spec.add_dependency("dry-struct")
   
   spec.add_development_dependency("minitest")
   spec.add_development_dependency("minitest-reporters")
