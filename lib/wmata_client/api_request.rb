@@ -34,6 +34,8 @@ module WmataClient
         end
       end
 
+      private
+
       def get(path, opts={})
         response = connection.get("#{API_BASE_URL}/#{path}", opts)
         response&.body
