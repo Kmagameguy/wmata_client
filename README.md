@@ -6,7 +6,6 @@ This project is still a WIP.
 
 ## Pre-requisites
 1. A compatible ruby version (see `.ruby-version`)
-1. Bundler
 1. A WMATA API key.  You can either try their "trial" key or sign up with your email address to receive one.
 
 ## Getting Set Up
@@ -22,6 +21,6 @@ This project is still a WIP.
 
 ## Using the Client
 1. `bin/console` is provided for your convenience.  It will open a ruby console with the WMATA client and your .env preloaded (via `.irbrc`)
-1. Make various requests using the public interface, e.g.: `WmataClient::ApiRequest.new.station_schedule(station_code: "E10")`
+1. Make various requests using the public interface, e.g.: `WmataClient::ApiRequest.station_schedule(station_code: "E10")`
 
 [wmata-api]:https://developer.wmata.com/
